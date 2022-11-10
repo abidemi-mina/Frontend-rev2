@@ -1,0 +1,91 @@
+
+*{
+ margin: 0;
+ padding:0;
+}
+ header{
+     background-color:darkslateblue;
+     height: 80px;
+     width: 100%;
+     position: fixed;
+
+ }
+ .column{
+     /* box-sizing: border-box; */
+     background-color: rgba(214, 210, 224, 0.304);
+     width: 800px;
+ }
+
+ #sidebar{
+     display: block;
+     text-align: center;
+     background-color: crimson;
+     width: 300px;
+ }
+ #navbar{
+     display: flex;
+     justify-content:space-between !important;
+     
+ }
+ #content{
+     background-image: url(coconut-rice.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     justify-content: space-between;
+     height: 500px;
+     padding: 20px;
+     display: flex;
+    text-align:left;
+ }
+ #navbar ul{
+     display: flex;
+     list-style: none;
+     
+ }
+ li:hover,.col:hover{
+     background-color: cornsilk;
+ }
+
+ ul,li a,p{
+     display: block;
+     padding: 10px;
+     text-decoration: none;
+     font: italic  larger bolder;
+     color: black;
+     list-style: none;
+ }
+ footer,#footlist{
+     list-style: none;
+
+ }
+ #footer{
+     display: flex;
+     padding: 20px;
+     justify-content:space-evenly;
+     height: 200px;
+ }
+ footer{
+     background-color: blueviolet;
+     height: 300px;
+ }
+ p{
+ text-align: center;
+ }
+ #main-content,#sidebar{
+     margin-top: 5%;
+ }
+ .cols{
+     display: flex;
+     flex-wrap: wrap;
+     background-color: brown;
+     justify-content: center;
+     width: 100%;
+ }
+ .col{
+     background-color: blueviolet;
+     width: 30%;            
+     border-radius: 25px;
+     margin: 1%;
+ }
+ 
+ 
